@@ -34,9 +34,11 @@ void Setup()
 }
 //Here the drawing the border and fruit and snake is done
 void Draw()
-{int i,j,k;
+{
+int i,j,k;
  system("cls");
-    for(i=0;i<width+2;i++)
+    
+for(i=0;i<width+2;i++)
        cout<<"#";
        cout<<endl;
      for(i=0;i<height;i++)
